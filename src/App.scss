@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+}
+
+body {
+  background-color: hsl(0, 100%, 74%);
+  background-image: url(../public/images/bg-intro-desktop.png);
+  background-size: cover;  
+}
+
+.App {
+  display: flex;
+  margin: auto;
+  padding-top: 8%;
+  justify-content: space-around;  
+  .main-header-paragraph {
+    color: wheat;
+    display: flex;
+    font-size: 1.3vw;
+    align-items: center;  
+  }
+  .box-and-purpleBar {
+    width: 400px;
+    height: 450px;
+    .purpleBar {
+      background-color: hsl(248, 32%, 49%);
+      display: flex;
+      margin:1rem 0;
+      width: 30vw;
+      border-radius: 8px;
+      height: 3rem;
+      p {
+        margin: auto;
+        color: whitesmoke;
+        font-size: 1.3vw;
+      }
+    }
+    .box {
+      display: flex;
+      flex-direction: column;
+      width: 30vw;
+      height: 60vh;
+      border: none;
+      border-radius: 10px;
+      background-color: white;
+      div {
+        margin:auto;
+        align-items: center;
+        width: 80%;
+        height: 10%;
+        border: none;
+        border-radius: 5px;  
+      }
+      input {
+        position: absolute;
+        margin:auto;
+        width: 23%;
+        height: 7%;
+        border: 2px lightgray solid;
+        border-radius: 5px;
+      }
+      button {
+        margin:auto;
+        width: 80%;
+        height: 10%;
+        background-color: hsl(154, 59%, 51%);
+        color: white;
+        border: none;
+        cursor:pointer;
+        border-radius: 5px;
+      }
+      img {
+        position: relative;
+        left: 100%;
+        width: 8%;
+        top: 10px;
+      }
+    }
+  }
+}
+
+
+
+
